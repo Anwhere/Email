@@ -1,0 +1,50 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:400";
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: url("https://static.pexels.com/photos/2859/sea-man-person-ocean.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+div.absolute-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s;
+}
+
+h3, h5 {
+  padding: 10px 30px 10px 30px;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: 0 0 5px 0 black;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+span#close {
+  position: absolute;
+  top: -15px;
+  left: -30px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+h3, h5 , a{
+  background: white;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+}
